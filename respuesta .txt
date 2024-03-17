@@ -1,0 +1,51 @@
+<!-- TODO 1: Create the HTML Boilerplate -->
+<!--Para crear el HTML boilerplate se coloca sólo el signi de exclamación y se presiona "enter"-->
+<!DOCTYPE html>
+<html lang="es">
+    <!--para temas de accesibilidad-el audio narrador -el lenguaje definido de la página es español-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Viviana</title>
+    <!--el titulo de la página será este-->
+</head>
+<body>
+    <h1>Portafolio de Viviana</h1>
+    <h2>Soy Desarrolladora Web</h2>
+    <hr>
+    <h2>Estos son mis proyectos realizados</h2>
+    <h3><a href="./public/movie-ranking.html" >Proyecto de Calificación de Películas</a></h3>
+    <img src="./assets/images/movie-ranking.png" height="200" alt="preview del Proyecto Calificación de Películas">
+
+    <h3><a href="./public/birthday-invite.html">Invitación a Cumpleaños</a></h3>
+    <img src="./assets/images/birthday-invite.png" height="200" alt="preview del Proyecto Invitación a Cumpleaños">
+    
+    <hr>
+    <a href="./public/about.html">Sobre mi</a>  
+
+    <a href="./public/contact.html">Contactame</a>
+</body>
+</html>
+<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
+<!--Los proyectos anteriores eran 2.4 Movie Ranking Proyect y 3.4 Birthday invite Proyect-->
+<!--Listo-->
+
+<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
+<!--Para esto debo abrir los proyectos en el browser y tomar la captura de pantalla-->
+<!--Listo-->
+
+<!-- TODO 4: Add titles/subtitles etc. -->
+
+<!-- TODO 5: Add a link to the project pages -->
+
+<!-- TODO 6: Add images to show the project previews
+HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
+<!-- esto para que las imagenes no sean enormes,basta agregar el atributo height="200", calcula solo la otra medida-->
+
+<!-- se sugiere agregar un <hr> horizontal rule , para separar el siguiente dato -->
+<!-- TODO 7: Add the Contact Me and About Me page links -->
+<!--tuve un problema que no se separaban bien estas direcciones, se soluciono llevando a cero los espacios de los titulos "Sobre mi" y "Contactame"
+ <a href="./public/about.html">Sobre mi</a>  
+
+    <a href="./public/contact.html">Contactame</a>-->
